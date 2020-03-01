@@ -52,3 +52,9 @@
     {% endif %}
   </div>
 {% endif %}
+<h2 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">Site Links</h2>
+<div class="f4 mb-6">
+  <div class="{{ metadata_styles }}">
+    <a href="/join" {% if site.style == 'dark' %}class="text-white"{% endif %}>Join the team</a>
+  </div>
+</div>
